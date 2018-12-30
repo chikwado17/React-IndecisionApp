@@ -1,0 +1,25 @@
+.header {
+    background: $off-black;
+    margin-bottom: $m-b;
+    color: white;
+    padding: $f-s $spacing;
+}
+
+.header__title {
+    font-size: 3.2rem;
+    margin: $spacing;
+   
+}
+
+.header__subtitle{
+    color:$off-white;
+    font-size: $f-s;
+    font-weight: $f-w;
+    margin: $spacing;
+}
+
+@media(min-width:45rem){
+    .header{
+        margin-bottom: 1.6rem;
+    }
+}

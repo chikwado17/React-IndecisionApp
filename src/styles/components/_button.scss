@@ -1,0 +1,39 @@
+.big-button{
+    background: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple,10%);
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 1.6rem;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled{
+    opacity: .5;
+}
+
+@media(min-width:45rem){
+    .big-button{
+        margin-bottom: 1.6rem;
+    }
+}
+//smaller button
+
+.button{
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: 1.2rem;
+}
+
+//The double hyping is add modification to the button class example class button button-link
+.button--link{
+    background: none;
+    border:none;
+    color: $off-white;
+    padding: 0;
+}
